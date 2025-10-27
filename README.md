@@ -14,18 +14,6 @@ An interactive React-based web app designed to help students and visitors naviga
 
 🎨 Responsive UI built with React, Tailwind, and Vite
 
-#📁 Folder Structure
-Code
-smart-campus-ui/
-├── components/         # MapView, Navbar, Footer, etc.
-├── types/              # Type definitions
-├── utils/              # Calculation logic
-├── App.tsx             # Main app component
-├── main.tsx            # Entry point
-├── index.css           # Global styles
-├── vite.config.ts      # Vite configuration
-├── package.json        # Project metadata
-#🛠️ Setup Instructions
 bash
 cd smart-campus-ui
 npm install
