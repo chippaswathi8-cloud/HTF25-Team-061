@@ -31,5 +31,7 @@ npm run dev
 Then open http://localhost:5173 in your browser.
 #📸 Demo
 <img width="1810" height="955" alt="image" src="https://github.com/user-attachments/assets/ba78ae62-39e8-4fd5-a67c-09f1d691c257" />
+<img width="1829" height="867" alt="image" src="https://github.com/user-attachments/assets/6695b9df-4d31-44d7-b779-5e44b4dc2cc5" />
+
 #👥 Team HTF25-Team-061
 Built for VibeathonX 2025 Forked from cbitosc/HTF25-Team-061
