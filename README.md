@@ -1,68 +1,35 @@
-﻿# HTF25-Team-061
+#🧭 Smart Campus Navigation System
+An interactive React-based web app designed to help students and visitors navigate CBIT campus efficiently. It features real-time mapping, emergency routing, and location-based insights — all optimized for clarity and accessibility.
+#🚀 Features
+🗺️ Interactive Map with CBIT markers and custom polylines
 
-## GitHub submission guide
+🏥 Emergency Routing to guide users to safe zones
 
-In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
+🏫 Home & Navigation Pages for intuitive campus flow
 
-<details open>
-<summary><h3>1. Login to your GitHub Account</h3></summary>
-<br>
-<p>Go to <a href="https://github.com">github.com</a> to log in.</p>
-<ul>
-   <li>Open the <a href="https://github.com/cbitosc/HTF25-Team-061">current repo</a> in a new tab.</li>
-   <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
-</ul>
-</details>
+📍 Location Data from locations.json
 
-<details open>
-<summary><h3>2. Fork the Repository</h3></summary>
-<br>
-<p align="center">
-  <img src="fork.jpeg" alt="Fork the Repository" height="300">
-</p>
-<ul>
- <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b>.</li>
- <li>Enter the <b>Repository Name</b> as <b>HTF25-Team-061</b>.</li>
- <li>Then click <b>Create Fork</b>, leaving all other fields as default.</li>
- <li>After a few moments, you can view your forked repo.</li>
-</ul>
-</details>
+⚙️ Custom Calculations via utils/calculations.ts
 
-<details open>
-<summary><h3>3. Clone your Repository</h3></summary>
-<br>
-<ul>
- <li>Click on <b>Code</b> and from the dropdown menu copy your <b>web URL</b> of your forked repository.</li>
- <li>Now open terminal on your local machine.</li>
- <li>Run this command to clone the repo:</li>
-<pre><code>git clone https://github.com/your-username/HTF25-Team-061.git</code></pre>
-</ul>
-</details>
-
-<details open>
-<summary><h3>4. Adding files to the Repository</h3></summary>
-<br>
-<ul>
- <li>While doing it for the first time, create a new branch for your changes:</li>
-<pre><code>git checkout -b branch-name</code></pre>
- <li>Add your files or make modifications to existing files.</li>
- <li>Stage your changes:</li>
-<pre><code>git add .</code></pre>
- <li>Commit your changes:</li>
-<pre><code>git commit -m "Descriptive commit message"</code></pre>
- <li>Push your branch to your fork:</li>
-<pre><code>git push origin branch-name</code></pre>
-</ul>
-</details>
-
-<details open>
-<summary><h3>5. Create a Pull Request</h3></summary>
-<br>
-<ul>
- <li>Click on the <b>Contribute</b> button in your fork and choose <b>Open Pull Request</b>.</li>
- <li>Leave all fields as default, then click <b>Create Pull Request</b>.</li>
- <li>Wait a few moments; your PR is now submitted.</li>
-</ul>
-</details>
-
-## Thanks for participating!
+🎨 Responsive UI built with React, Tailwind, and Vite
+#📁 Folder Structure
+Code
+smart-campus-ui/
+├── components/         # MapView, Navbar, Footer, etc.
+├── types/              # Type definitions
+├── utils/              # Calculation logic
+├── App.tsx             # Main app component
+├── main.tsx            # Entry point
+├── index.css           # Global styles
+├── vite.config.ts      # Vite configuration
+├── package.json        # Project metadata
+#🛠️ Setup Instructions
+bash
+cd smart-campus-ui
+npm install
+npm run dev
+Then open http://localhost:5173 in your browser.
+#📸 Demo
+<img width="1810" height="955" alt="image" src="https://github.com/user-attachments/assets/ba78ae62-39e8-4fd5-a67c-09f1d691c257" />
+#👥 Team HTF25-Team-061
+Built for VibeathonX 2025 Forked from cbitosc/HTF25-Team-061
